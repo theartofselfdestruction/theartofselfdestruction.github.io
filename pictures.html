@@ -1,12 +1,46 @@
-<!-- newpage.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cool stuff</title>
+    <title>Pictures</title>
+    <style>
+        body {
+            font-size: 16px; 
+            margin: 0; 
+            padding: 20px; 
+        }
+        h1 {
+            font-size: 24px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        table img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+        td {
+            padding: 10px;
+            border: 2px solid #000;
+        }
+    </style>
 </head>
 <body>
-    <p>Here's some stuff you should check out</p>
+    <h1>Here's some stuff you should check out</h1>
+    <table>
+        <tr>
+            <td><img src="/images/jar_of_flies.jpg" alt="Me and my jar of flies record"></td>
+            <td><img src="/images/lucky_charms.jpg" alt="Some cereal I ate"></td>
+            <td><img src="/images/pig_skateboard.jpg" alt="My NIN Skateboard Deck"></td>
+        </tr>
+        <tr>
+            <td><img src="/images/some_ducks.jpg" alt="Some ducks I saw"></td>
+            <td><img src="/images/spongebob.jpg" alt="Some ice cream I ate"></td>
+            <td><img src="/images/winter_walker.jpg" alt="Me in the winter"></td>
+        </tr>
+    </table>
 </body>
 </html>
