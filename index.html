@@ -35,7 +35,7 @@
 <body>
     <h1>Walker | theartofselfdestruction.github.io</h1>
     <p>Fool enough to almost be it | Cool enough to not quite see it</p>
-    <img src="/images/walker.png" alt="Me after I got my ears pierced">
+    <img id="walker-image" src="/images/walker.png" alt="Me after I got my ears pierced">
 
 
     <!-- About Me Section -->
@@ -50,10 +50,12 @@
     </section>
     <script type="text/javascript" src="//counter.websiteout.com/js/2/0/0/0"></script>
     <script>
-        var walkerImage = document.getElementById('walker-image');
+        document.addEventListener('DOMContentLoaded', function() {
+            var walkerImage = document.getElementById('walker-image');
 
-        walkerImage.addEventListener('click', function() {
-            window.location.href = 'pictures.html';
+            walkerImage.addEventListener('click', function() {
+                window.location.href = 'pictures.html';
+            });
         });
     </script>
 
