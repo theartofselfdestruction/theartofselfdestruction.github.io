@@ -13,6 +13,6 @@ body{
 .blinkies {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Automatically fit to the screen size */
-    gap: 5px; /* Adjust the gap as per your preference */
-    margin-top: 20px;
+    gap: 1px; /* Adjust the gap as per your preference */
+    margin-top: 5;
 }
