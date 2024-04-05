@@ -4,8 +4,15 @@ body{
     text-align: center;
     -webkit-text-fill-color: lime;
 }
-.about-me h2 {
+.about-me h2,
+.why h2 {
     color: lime;
-    font-size: 20px; 
+    font-size: 20px; /* Set a consistent font size for both headers */
     margin-bottom: 10px;
+}
+.blinkies {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Automatically fit to the screen size */
+    gap: 5px; /* Adjust the gap as per your preference */
+    margin-top: 20px;
 }
