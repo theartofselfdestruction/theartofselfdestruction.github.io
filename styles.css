@@ -14,5 +14,5 @@ body{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Automatically fit to the screen size */
     gap: 1px; /* Adjust the gap as per your preference */
-    margin-top: 5;
+    margin-top: 10px;
 }
