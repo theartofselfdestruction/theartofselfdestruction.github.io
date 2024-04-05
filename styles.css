@@ -4,3 +4,8 @@ body{
     text-align: center;
     -webkit-text-fill-color: lime;
 }
+.about-me h2 {
+    color: lime;
+    font-size: 20px; 
+    margin-bottom: 10px;
+}
