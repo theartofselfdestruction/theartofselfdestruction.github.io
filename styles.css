@@ -16,10 +16,3 @@ body{
     gap: 1px; /* Adjust the gap as per your preference */
     margin-top: 10px;
 }
-<style type="text/css">
-body {cursor: url(http://www.rw-designer.com/cursor-extern.php?id=1229);}
-</style>
-
-body {
-    cursor: url('path/to/your-cursor-image.png'), auto;
-}
