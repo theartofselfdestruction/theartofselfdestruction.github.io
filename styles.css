@@ -16,3 +16,10 @@ body{
     gap: 1px; /* Adjust the gap as per your preference */
     margin-top: 10px;
 }
+table img {
+    display: block;
+    max-width: 100%;
+    height: 300px; /* Adjust this as needed */
+    object-fit: cover; /* This will maintain aspect ratio */
+}
+    
