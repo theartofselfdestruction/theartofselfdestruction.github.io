@@ -6,7 +6,13 @@
     <title>Pictures</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel="stylesheet" href="styles.css">
-    <style>
+    <style> 
+        table img {
+            display: block;
+            width: 100%;
+            height: 200px; /* Set a fixed height */
+            object-fit: cover; /* Ensures images maintain aspect ratio without stretching */
+        }
         body {
             color:lime;
 
@@ -38,7 +44,7 @@
 </head>
 <body>
     <h1>Walker | theartofselfdestruction.github.io</h1>
-    <p>Here's some pictures I took that you should check out</h1>
+    <p>Here's some pictures I took that you should check out</p>
     <table>
         <tr>
             <td><img src="/images/oscarmeyers.jpg" alt="Me and my jar of flies record"></td>
